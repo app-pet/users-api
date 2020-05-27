@@ -9,7 +9,7 @@ class AppController{
 
         require('dotenv/config');
 
-        this.database()        
+        //this.database()        
         requireDir('./app/models');
 
         app.use('/api', require('./routes'))
