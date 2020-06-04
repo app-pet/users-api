@@ -19,7 +19,7 @@ const mongoosePaginate = require('mongoose-paginate')
  * 
  *        required:
  *          - name
- *          - telephone
+ *          - phone
  *          - email
  *          
  */
