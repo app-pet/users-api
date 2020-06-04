@@ -28,6 +28,10 @@ class UserService {
     async findByIdAndUpdate(id, user){
         return await User.findByIdAndUpdate(id, user, { new: true })
     }
+
+    async findUserByPhone(phone) {
+        return await User.findOne({phone: phone})
+    }
 }
 
 module.exports = new UserService()

@@ -7,7 +7,7 @@ const options = {
       info: {
         title: "Super App Pet",
         version: "1.0.0",
-        description:  "Centralizador de Serviços e Produtos para Pets",
+        description:  "O Marketplace de Serviços e Produtos para Pets",
         license: {
           name: "MIT",
           url: "https://choosealicense.com/licenses/mit/"
