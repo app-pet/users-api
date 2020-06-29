@@ -42,5 +42,10 @@ docker-compose up
 > **Users:** http://localhost:3000/api/users <br>
 > **Providers:** http://localhost:3001/api/providers
 
+- Swagger
+> **Users:** http://localhost:3000/api-docs/ <br>
+> **Providers:** http://localhost:3001/api-docs/ <br>
+
+
 - Para encerrar a execução dos conteineres do projeto, utilize o comando: <br>
 > docker-compose down
